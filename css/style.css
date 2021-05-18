@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 .box_nav{
     height: 100px;
     width: 100%;
@@ -14,12 +19,20 @@
     background-color: green;
 }
 .box_img{
-    height: 100px;
+    min-width: 100px;
+}
+.box_img img{
     width: 100%;
-    background-color: violet;
+
 }
 .box_about{
     height: 100px;
     width: 100%;
     background-color: violet;
+}
+.box_img_jumbo{
+ width: 250px;
+}
+body{
+    background-color: black;
 }
