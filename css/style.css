@@ -3,15 +3,24 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+Na
+#navbarSupportedContent{
+    flex-grow: 0;
+}
 .box_nav{
-    height: 100px;
-    width: 100%;
-    background-color: red;
+ background-color: #2C3E50;
+ color: white;
 }
 .box_jumbo{
     height: 400px;
     width: 100%;
-    background-color: blue;
+    background-color: #1ABC9C;
+}
+.box_img_jumbo{
+ width: 250px;
 }
 .portfolio{
     height: 100px;
@@ -26,13 +35,9 @@
 
 }
 .box_about{
-    height: 100px;
     width: 100%;
-    background-color: violet;
+    background-color: #1ABC9C;
 }
-.box_img_jumbo{
- width: 250px;
-}
-body{
-    background-color: black;
+.box_contact{
+
 }
