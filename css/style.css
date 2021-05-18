@@ -1,0 +1,25 @@
+.box_nav{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+.box_jumbo{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+.portfolio{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
+.box_img{
+    height: 100px;
+    width: 100%;
+    background-color: violet;
+}
+.box_about{
+    height: 100px;
+    width: 100%;
+    background-color: violet;
+}
