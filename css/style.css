@@ -44,3 +44,14 @@ span{
 .box_botfoot{
     background-color: #2C3E50;
 }
+/* BONUS */
+.layover{
+   background-color:rgba(65, 146, 65, 0.6);
+   display: none;
+}
+.box_img:hover .layover{
+    display: block;
+}
+.box_img i{
+    font-size: 100px;
+}
