@@ -3,30 +3,22 @@
     margin: 0%;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
-}
-Na
-#navbarSupportedContent{
-    flex-grow: 0;
+.header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
 }
 .box_nav{
  background-color: #2C3E50;
- color: white;
 }
 .box_jumbo{
-    height: 400px;
     width: 100%;
     background-color: #1ABC9C;
 }
 .box_img_jumbo{
  width: 250px;
 }
-.portfolio{
-    height: 100px;
-    width: 100%;
-    background-color: green;
-}
+
 .box_img{
     min-width: 100px;
 }
@@ -40,7 +32,15 @@ Na
 }
 span{
     display: inline-block;
-    height: 5px;
-    width: 70px;
-    background-color: gray;
+    height: 4px;
+    width: 100px;
+}
+.color_white{
+    color: white;
+}
+.box_topfoot{
+    background-color: #3A546D;  
+}
+.box_botfoot{
+    background-color: #2C3E50;
 }
